@@ -1,8 +1,24 @@
 Macro Keyboard – README
 Overview
 
-This project is a custom macro keyboard built using a Raspberry Pi Pico running CircuitPython, paired with a PC-side software application.
+This project is a custom macro keyboard I built using a Raspberry Pi Pico running CircuitPython, paired with a PC-side software application.
 The system supports multiple profiles, allowing the same physical buttons to perform different actions depending on the active profile.
+----------------------------
+**Setup Summary**
+
+1.Flash CircuitPython onto the Raspberry Pi Pico
+
+2.Copy boot.py (USB CDC enabled) and code.py to the Pico
+
+3.Wire buttons to GPIO pins and GND
+
+4.code the gui.py to your pc/laptop
+
+6.Run the gui.py using IDE or directly run the macro-miles.exe
+
+7.Select the correct COM port
+
+8.Create or load a profile and assign macros
 
 **System Architecture**
 Hardware:
@@ -47,21 +63,6 @@ Examples:
   •Each profile maps button IDs to macros
   •Files are human-readable and easy to modify
 
-**Setup Summary**
-
-1.Flash CircuitPython onto the Raspberry Pi Pico
-
-2.Copy boot.py (USB CDC enabled) and code.py to the Pico
-
-3.Wire buttons to GPIO pins and GND
-
-4.code the gui.py to your pc/laptop
-
-6.Run the gui.py using IDE or directly run the macro-miles.exe
-
-7.Select the correct COM port
-
-8.Create or load a profile and assign macros
 
 **Notes**
 
