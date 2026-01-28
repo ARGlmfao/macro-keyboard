@@ -12,9 +12,9 @@ The system supports multiple profiles, allowing the same physical buttons to per
 
 3.Wire buttons to GPIO pins and GND
 
-4.code the gui.py to your pc/laptop
+4.code the miles-macro.py to your pc/laptop
 
-6.Run the gui.py using IDE or directly run the macro-miles.exe
+6.Run the miles-macro.py using IDE or directly run the macro-miles.exe
 
 7.Select the correct COM port
 
